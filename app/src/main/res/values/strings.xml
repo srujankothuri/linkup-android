@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">LinkUp</string>
+    <string name="app_slogan">Your next hangout is a mystery.</string>
+    <string name="app_tagline">Guess who\'s down.</string>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your adventure</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="sign_up_link">Sign Up</string>
+    <string name="or_divider">OR</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="register_subtitle">Join LinkUp and start connecting</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="username_hint">Username</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_button">Create Account</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="sign_in_link">Sign In</string>
+    <string name="terms_prefix">By signing up, you agree to our </string>
+    <string name="terms_link">Terms of Service</string>
+    <string name="and_text"> and </string>
+    <string name="privacy_link">Privacy Policy</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="friends">Friends</string>
+    <string name="friends_nearby">%d Friends Nearby</string>
+    <string name="no_friends_nearby">No Friends Nearby</string>
+    <string name="link_up_button">Link Up!</string>
+    <string name="my_location">My Location</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="search_friends_hint">Search by name or username\u2026</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="search_results">Search Results</string>
+    <string name="no_results_found">No results found</string>
+    <string name="try_different_search">Try a different search term</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="pending">Pending</string>
+    <string name="added">Friends</string>
+    <string name="all_users">All Users</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_profile">My Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="bio_hint">Tell your friends something about you\u2026</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="logout">Log Out</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="member_since">Member since %s</string>
+    <string name="total_linkups">Total LinkUps</string>
+    <string name="friends_count">Friends</string>
+
+    <string name="error_empty_email">Please enter your email</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_empty_password">Please enter your password</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+    <string name="error_empty_name">Please enter your name</string>
+    <string name="error_empty_username">Please enter a username</string>
+    <string name="error_login_failed">Login failed. Please check your credentials.</string>
+    <string name="error_register_failed">Registration failed. Please try again.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+
+    <string name="loading">Loading\u2026</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="retry">Retry</string>
+
+    <string name="error_username_too_short">Username must be at least 3 characters</string>
+    <string name="error_username_taken">Username already taken</string>
+    <string name="error_email_not_found">No account found with this email</string>
+    <string name="error_wrong_password">Incorrect password. Please try again.</string>
+    <string name="error_email_collision">An account with this email already exists</string>
+    <string name="error_weak_password">Please choose a stronger password</string>
+    <string name="error_enter_email_first">Enter your email first</string>
+
+    <string name="camera_permission_needed">Camera permission needed to take a photo</string>
+    <string name="error_open_camera">Couldn\'t open camera. Try gallery instead.</string>
+    <string name="uploading_photo">Uploading photo\u2026</string>
+    <string name="upload_failed_retry">Upload failed. Try again.</string>
+    <string name="upload_failed_connection">Upload failed. Check connection and try again.</string>
+    <string name="photo_updated">Profile photo updated!</string>
+    <string name="photo_saved_locally">Photo saved locally. Will sync when online.</string>
+    <string name="not_signed_in">Not signed in. Please log in again.</string>
+    <string name="complete_your_profile">Complete your profile and tap Save</string>
+    <string name="save_may_not_sync">Save may not have synced. Will retry when online.</string>
+    <string name="photo_picker_title">Change Profile Photo</string>
+    <string name="photo_option_take">Take Photo</string>
+    <string name="photo_option_gallery">Choose from Gallery</string>
+
+    <string name="friend_requests_header">Friend Requests (%d)</string>
+    <string name="sent_requests_header">Sent Requests (%d)</string>
+    <string name="my_friends_header">My Friends (%d)</string>
+    <string name="my_friends_header_empty">My Friends</string>
+    <string name="now_friends">You and %s are now friends!</string>
+    <string name="request_declined">Request from %s declined</string>
+    <string name="request_cancelled">Request to %s cancelled</string>
+    <string name="friend_removed">%s removed from friends</string>
+    <string name="error_load_friends">Failed to load friends. Try again.</string>
+    <string name="error_accept_request">Failed to accept. Try again.</string>
+    <string name="error_decline_request">Failed to decline. Try again.</string>
+    <string name="error_cancel_request">Failed to cancel. Try again.</string>
+    <string name="error_remove_friend">Failed to remove. Try again.</string>
+    <string name="remove_friend_title">Remove Friend</string>
+    <string name="remove_friend_message">Remove %s from your friends?</string>
+    <string name="remove_friend_confirm">Remove</string>
+    <string name="no_friends_yet">No friends yet</string>
+    <string name="no_friends_search_hint">Search for people and send friend requests</string>
+    <string name="section_friend_requests">Friend Requests</string>
+    <string name="section_sent_requests">Sent Requests</string>
+    <string name="section_my_friends">My Friends</string>
+
+    <string name="enable_location_prompt">Location permission is needed for the app to work</string>
+    <string name="location_required">Location required to LinkUp</string>
+    <string name="looking_for_friend">Looking for a friend\u2026</string>
+    <string name="location_unavailable">Couldn\'t get your location. Try again.</string>
+    <string name="no_friends_yet_add">No friends yet! Add some friends first.</string>
+    <string name="no_friends_available">No friends available right now. Try again later!</string>
+    <string name="error_already_linked_up">You\'re already in a chat! Finish or leave to start a new LinkUp.</string>
+    <string name="failed_to_send_requests">Failed to send requests. Try again.</string>
+    <string name="no_one_accepted">No one accepted your LinkUp. Try again later!</string>
+    <string name="waiting_for_accept">Waiting for someone to accept</string>
+    <string name="finding_friend">Finding you a friend...</string>
+    <string name="link_up_icon_description">LinkUp</string>
+    <string name="link_up_button_label">Link\nUp!</string>
+    <string name="friend_nearby_snippet">Tap marker for details</string>
+    <string name="friend_marker_title">Friend Nearby</string>
+
+    <string name="toast_request_unavailable">Request no longer available.</string>
+    <string name="no_pending_requests">No pending requests</string>
+    <string name="requests_title">Requests</string>
+
+    <string name="friend_request_sent">Friend request sent to %s</string>
+    <string name="error_send_request">Failed to send request. Try again.</string>
+    <string name="clear_search">Clear search</string>
+    <string name="no_results_icon_description">No results</string>
+
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="remove">Remove</string>
+
+    <string name="notif_incoming_title">Someone wants to hang out!</string>
+    <string name="notif_incoming_text">Guess who\'s down? \uD83D\uDC40 Tap to find out.</string>
+    <string name="notif_service_title">LinkUp</string>
+    <string name="notif_service_text">Listening for friend requests\u2026</string>
+    <string name="notif_channel_service_name">LinkUp Service</string>
+    <string name="notif_channel_service_desc">Keeps LinkUp running in the background</string>
+    <string name="notif_channel_incoming_name">LinkUp Requests</string>
+    <string name="notif_channel_incoming_desc">Alerts when a friend sends you a LinkUp</string>
+
+    <string name="password_reset_sent">Password reset email sent! Check your inbox.</string>
+    <string name="password_reset_failed">Failed to send reset email. Check the address and try again.</string>
+
+    <string name="chat_anonymous_name">Anonymous</string>
+    <string name="chat_coming_soon">Chat coming soon\u2026</string>
+    <string name="chat_linked_up">Linked up!</string>
+    <string name="chat_message_hint">Say something\u2026</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_matched_banner">You just linked up! Say hi \uD83D\uDC4B</string>
+    <string name="chat_matched_banner_with_name">You linked up with %s! Say hi \uD83D\uDC4B</string>
+    <string name="chat_send_failed">Failed to send message. Try again.</string>
+    <string name="chat_partner_left">Your friend left the chat</string>
+
+    <string name="history_title">Chat History</string>
+    <string name="history_empty_title">No Chat History Yet</string>
+    <string name="history_empty_desc">Your past LinkUps and chats will appear here</string>
+    <string name="history_past_chat">Past conversation</string>
+
+    <string name="countdown_placeholder">1:00</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="invalid_session">Invalid session</string>
+    <string name="message_cannot_be_empty">Message cannot be empty</string>
+    <string name="confirm_leave_chat_title">Leave Chat?</string>
+    <string name="confirm_leave_chat_message">Are you sure you want to leave? The chat will end for both of you.</string>
+    <string name="confirm_unsaved_changes">You have unsaved changes. Discard them?</string>
+    <string name="confirm_logout_title">Sign Out?</string>
+    <string name="confirm_logout_message">You will be signed out of your account.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="cant_navigate_during_linkup">Please cancel LinkUp first</string>
+    <string name="confirm_exit_chat">Leave Chat?</string>
+    <string name="chat_will_end">The chat will end for both of you.</string>
+    <string name="leave">Leave</string>
+    <string name="network_error_check_connection">Network error. Please check your connection and try again.</string>
+
+    <string name="linkup_logo_description">LinkUp logo</string>
+
+    <string name="search_radius_10_miles">Search Radius: 10 miles (visible on map)</string>
+    <string name="search_within_radius">Only showing friends within 10 miles of your location</string>
+    <string name="distance_format">• %s</string>
+
+    <string name="request_sent_to_friends">LinkUp sent to %d nearby friend(s)! 📍</string>
+    <string name="friend_accepted_linkup">%s accepted your LinkUp! 🎉</string>
+    <string name="linkup_expired">LinkUp expired. Try again!</string>
+    <string name="linkup_request_cancelled">A LinkUp request was cancelled</string>
+
+    <string name="chat_active_now">Chat active with %s</string>
+    <string name="chat_will_end_soon">Chat ends in %d seconds</string>
+    <string name="you_sent_message">You: %s</string>
+    <string name="friend_sent_message">%s: %s</string>
+
+    <string name="friend_distance_away">%s • %s away</string>
+    <string name="accept_linkup_request">Accept LinkUp from %s</string>
+    <string name="incoming_request_from">Incoming request from %s</string>
+    <string name="outgoing_request_to">Pending request sent to %s</string>
+
+
+    <string name="location_loading">Getting your location...</string>
+    <string name="user_offline">User is offline</string>
+    <string name="user_in_linkup">User is in a LinkUp</string>
+    <string name="available_now">Available Now</string>
+
+</resources>
