@@ -1,7 +1,19 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.services)
 }
+
+val secretsProperties = Properties()
+val secretsFile = rootProject.file("secrets.properties")
+if (secretsFile.exists()) {
+    secretsFile.inputStream().use { secretsProperties.load(it) }
+}
+
+val mapsApiKey = secretsProperties.getProperty("MAPS_API_KEY")
+    ?: providers.environmentVariable("MAPS_API_KEY").orNull
+    ?: ""
 
 android {
     namespace = "edu.northeastern.numad26sp_team4_sena"
@@ -14,6 +26,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+        manifestPlaceholders["MAPS_API_KEY"] = mapsApiKey
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
